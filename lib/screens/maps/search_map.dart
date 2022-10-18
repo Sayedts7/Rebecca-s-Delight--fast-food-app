@@ -48,7 +48,7 @@ final Completer<GoogleMapController> _controller = Completer();
     getSuggestion(_textcontroller.text);
   }
   void getSuggestion(String input) async{
-    String _kplaces_Api_key = 'AIzaSyCUO40W_nDrilaL-2ny5RcWYpzHdlNil-M';
+    String _kplaces_Api_key = '*******************************';
     String baseURL ='https://maps.googleapis.com/maps/api/place/autocomplete/json';
     String request = '$baseURL?input=$input&key=$_kplaces_Api_key&sessiontoken=$_sessiontoken';
 
